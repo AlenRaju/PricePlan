@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #292e39;
+    font-family: "Sono", sans-serif;
+}
+
+.plan-features{
+    list-style: none;
+}
+
+.pricing-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pricing-plan{
+    background-color: #232833;
+    width: 240px;
+    height: 500px;
+    align-content: center;
+    border-radius: 40px;
+}
+
+.basic{
+    color:#df7cbf;
+    font-size: 24px;
+    
+}
+
+.standard{
+    color:#6d6cd8;
+    font-size: 24px;
+    /* background-color: aqua; */
+}
+
+.premium{
+    color:#2aadf0;
+    font-size: 24px;
+    /* background-color: green; */
+}
+
+.plan-features{
+    /* background-color: #6d6cd8; */
+    text-align: start;
+    font-size: 14px;
+    color: white;
+}
+
+.plan-features li{
+    margin: 1em;
+}
+
+
+.one{
+    border-radius: 40px 40px 40px 40px;
+    background-color: #e37bbe;
+    outline-color:#e37bbe;
+    border: none;
+    cursor:pointer;
+    transition: 0.2s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    width: 75px;
+    height: 25px;
+    margin: 1em;
+}
+
+.two{
+    border-radius: 40px 40px 40px 40px;
+    background-color: #6e6dde;
+    outline-color: #6e6dde;
+    border: none;
+    cursor:pointer;
+    transition: 0.2s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    width: 75px;
+    height: 25px;
+    margin: 1em;
+    
+}
+
+.three{
+    border-radius: 40px 40px 40px 40px;
+    background-color: #70b8fd;
+    outline-color: #70b8fd;
+    border: none;
+    cursor:pointer;
+    transition: 0.2s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    width: 75px;
+    height: 25px;
+    margin: 1em;
+}
+
+.one:hover, .two:hover, .three:hover{
+    scale: 1.1;
+}
+
+.one:hover{
+    box-shadow: 0px 0px 5px 2px rgba(216,121,183,.5);
+}
+
+.two:hover{
+    box-shadow: 0px 0px 5px 2px rgba(110,109,222,.5); 
+}
+
+.three:hover{
+    box-shadow: 0px 0px 5px 2px rgba(108,185,253,.5)
+}
+
+.top-section{
+    height: 30%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom-section{
+    height: 70%;
+    background-color: #323647;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 40px 40px;
+}
